@@ -24,7 +24,7 @@ header {
    
 }
 
-#head {
+.top {
     float: left;
     background-color: #4aaaa5;
     /* margin: 5px 5px 5px 5px; */
@@ -71,57 +71,80 @@ footer {
     border-top: 5px solid #4aaaa5;
 }
 
+.port {
+    background-color: #ffffff;
+    width: 920px;
+    margin: 0 auto;
+    color:#4aaaa5;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 5px solid #cccccc;
+    
+
+}
+
 .box-set {
-    position: relative;
-  
+    width: 960px;
+    height: 800px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+}
+
+.box-set::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.box {
+    height: 200px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .box-1 {
     background-image: url("../images/proj1.png");
-    top: 6%;
-    left: 2%;
-    height: 75px;
-    width: 100 px;
-    background-repeat: no-repeat;
     float: left;
- 
   }
   
 .box-2 {
     background-image: url("../images/proj2.png");
-    top: 0;
-    right: -40px;
     float: left;
+    position: relative;
+    left: 30px;
 }
   
 .box-3 {
     background-image: url("../images/proj3.png");
+    clear: both;
+    float: left;
     position: relative;
-    height: 75px;
-    width: 100 px;
-    right: 20px;
-    bottom: -10px;
-  
-  }
+    top: 20px;
+}
   
 .box-4 {
     background-image: url("../images/proj4.png");
-    height: 75px;
-    width: 100 px;
-    bottom: 0;
- 
-}
-
-.box-5 {
-    background-image: url("../images/proj15.png");
-    height: 75px;
-    width: 100 px;
-    right: -40px;
+    float: left;
+    position: relative;
+    left: 30px;
+    top: 20px;
   
 }
 
-.face {
+.box-5 {
+    background-image: url("../images/proj5.png");
     float: left;
+    clear: both;
+    position: relative;
+    top: 40px;
+}
+
+#face {
+    float: left;
+    margin: 0px 10px 0px 0px;
 }
 
 footer {
@@ -130,18 +153,47 @@ footer {
 
 .head {
     background-color: #ffffff;
-    width: 960px;
+    width: 920px;
     margin: 0 auto;
-    border-bottom: 5pts solid #cccccc;
     color:#4aaaa5;
-    padding: 15px;
-    overflow: auto;1
+    padding: 20px;
+    content: "";
+    display: block;
+    clear: both;
+
 }
 
+}
 #bio {
-    vertical-align: top;
-    display: inline;
-    padding-left: 10px;
+    padding: 10px;
     
 }
 
+.inputs {
+    width: 900px;
+}
+
+hr {
+    color: #cccccc;
+    size: "15";
+    padding: 0px 5px 0px 5px;
+}
+
+#submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+}
+
+.banner {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    bottom: -125px;
+    padding: 15px 0px 15px 0px;
+    width: auto;
+
+}
