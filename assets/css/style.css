@@ -1,0 +1,147 @@
+body {
+    background-image: url("../images/hex.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header, h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p, form {
+    color: #777777;
+}
+
+header {
+    background-color: #ffffff;
+    margin-top: -21.440px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 5px;
+    height: 65px;
+    border-color: #cccccc;
+    border-width: 5px 5px 5px 5px;
+    padding-left: 457px;
+   
+}
+
+#head {
+    float: left;
+    background-color: #4aaaa5;
+    /* margin: 5px 5px 5px 5px; */
+    text-align: center; 
+    display:block;
+    clear: both;
+    margin-top: 5px;
+    padding: 0px 15px 0px 15px;
+    color: #ffffff;
+}
+
+nav {
+    float: right;
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 457px;
+}
+
+#me {
+    color: #4aaaa5;  
+   
+    
+}
+.about {
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+#navvy {
+    color: #777777;
+
+}
+
+footer {
+    background-color: #666666;
+    padding-top: 30px;
+    border-top: 5px solid #4aaaa5;
+}
+
+.box-set {
+    position: relative;
+  
+}
+
+.box-1 {
+    background-image: url("../images/proj1.png");
+    top: 6%;
+    left: 2%;
+    height: 75px;
+    width: 100 px;
+    background-repeat: no-repeat;
+    float: left;
+ 
+  }
+  
+.box-2 {
+    background-image: url("../images/proj2.png");
+    top: 0;
+    right: -40px;
+    float: left;
+}
+  
+.box-3 {
+    background-image: url("../images/proj3.png");
+    position: relative;
+    height: 75px;
+    width: 100 px;
+    right: 20px;
+    bottom: -10px;
+  
+  }
+  
+.box-4 {
+    background-image: url("../images/proj4.png");
+    height: 75px;
+    width: 100 px;
+    bottom: 0;
+ 
+}
+
+.box-5 {
+    background-image: url("../images/proj15.png");
+    height: 75px;
+    width: 100 px;
+    right: -40px;
+  
+}
+
+.face {
+    float: left;
+}
+
+footer {
+    text-align: center;
+}
+
+.head {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    border-bottom: 5pts solid #cccccc;
+    color:#4aaaa5;
+    padding: 15px;
+    overflow: auto;1
+}
+
+#bio {
+    vertical-align: top;
+    display: inline;
+    padding-left: 10px;
+    
+}
+
