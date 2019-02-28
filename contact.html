@@ -9,33 +9,41 @@
 <body>
 
     <header>
-        <section class="top">
-       
-        <h1>Larry Evans</h1>
-    
-        </section>  
 
-        <nav id="navvy">
-            <a href="index.html">About</a> | 
-            <a href="portfolio.html">Portfolio</a>  |  
-            <a href="contact.html">Contact</a> 
-        </nav>
+        <div class="navbar">
+            
+            <section class="nametag">
+               
+                <h1>Larry Evans</h1>
+            
+            </section>  
+        
+            <nav>
+                <a id="indy" href="index.html">About</a>
+                <a id="porty" href="portfolio.html">Portfolio</a>
+                <a id="conty" href="contact.html">Contact</a> 
+            </nav>
+        
+        </div> 
 
     </header>
         
-        <br>
+    <br><br><br><br>
+
+    <section class="wrapper">
+
+        <h1 class="me">Contact</h1>
         
-    <section class="head">
-        <h1 id="me">Contact</h1>
         <hr>
         <br>
+
         <form class="contact-me">
             Name<br>
-            <input class="inputs" type="text" name="Name"><br><br>
+            <input class="inputs" type="text" placeholder="John Smith"><br><br>
             Email<br>
-            <input class="inputs" type="text" name="example@gmail.com"><br><br>
+            <input class="inputs" type="text" placeholder="example@gmail.com"><br><br>
             Message<br>
-            <textarea class="inputs" rows="10" cols= "50">
+            <textarea class="inputs" rows="10" cols= "50" placeholder="Hit me up!">
             </textarea><br>
             <input id="submit" type="submit" value="Submit">
         </form>
@@ -46,8 +54,10 @@
 
     <br>
 
-<footer>
+<footer class="LayoutBottom">
+    <div class="col-sm-12">
     © Copyright  
+    </div>  
 </footer>
 
 </body>

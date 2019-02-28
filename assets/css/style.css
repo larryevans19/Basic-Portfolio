@@ -1,54 +1,90 @@
 body {
     background-image: url("../images/hex.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     
 }
 
-header, h1, h2 {
+header, h1, h2, .banner {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-p, form {
+p, form, footer {
     color: #777777;
+    font-size: small;
+    line-height: 1.75; 
+    
 }
 
 header {
     background-color: #ffffff;
-    margin-top: -21.440px;
-    margin-left: -8px;
-    margin-right: -8px;
-    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
     height: 65px;
-    border-color: #cccccc;
-    border-width: 5px 5px 5px 5px;
-    padding-left: 457px;
+    border-bottom: 2px solid #cccccc;
    
 }
 
-.top {
+.navbar {
+    width: 960px;
+    height: 65px;
+    margin: 0 auto;
+    
+}
+
+.nametag {
     float: left;
     background-color: #4aaaa5;
-    /* margin: 5px 5px 5px 5px; */
-    text-align: center; 
-    display:block;
-    clear: both;
-    margin-top: 5px;
-    padding: 0px 15px 0px 15px;
+    text-align: center;
     color: #ffffff;
+    height: 100%;
+    width: 200px;
+   
 }
 
 nav {
     float: right;
-    display: inline;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 457px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 200px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: small;
+
 }
 
-#me {
+#indy {
+    width: 33%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #cccccc;
+
+}
+
+#porty {
+    width: 33%;
+    float: middle;
+    text-align: center;
+    
+}
+
+#conty {
+    width: 33%;
+    float: right; 
+    text-align: center;
+    border-left: 1px solid #cccccc;
+
+}
+
+.me {
     color: #4aaaa5;  
    
     
 }
+
 .about {
     background-color: white;
     width: 960px;
@@ -67,8 +103,20 @@ a {
 
 footer {
     background-color: #666666;
-    padding-top: 30px;
-    border-top: 5px solid #4aaaa5;
+    padding-top: 25px;
+    border-top: 8px solid #4aaaa5;
+    height: 25px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    left: -10px;
+    bottom: -10px;
+    right: -10px;
+    padding-right: 18px;
+  
+
+
 }
 
 .port {
@@ -83,11 +131,12 @@ footer {
 }
 
 .box-set {
-    width: 960px;
-    height: 800px;
+    width: 920px;
+    height: 100%;
     background-color: #ffffff;
-    margin: auto;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 10px 20px 80px 20px;
+    border: 1px solid #dddddd;
 }
 
 .box-set::after {
@@ -98,8 +147,8 @@ footer {
 }
 
 .box {
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 300px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -144,33 +193,36 @@ footer {
 
 #face {
     float: left;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 20px 0px 0px;
 }
 
-footer {
-    text-align: center;
-}
-
-.head {
+.wrapper {
     background-color: #ffffff;
     width: 920px;
     margin: 0 auto;
     color:#4aaaa5;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #dddddd;
+
+}
+
+.wrapper::after {
     content: "";
     display: block;
     clear: both;
-
 }
 
-}
 #bio {
-    padding: 10px;
-    
+    padding: 10px 0px 0px 0px;
 }
 
 .inputs {
-    width: 900px;
+    width: 915px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+textarea {
+    overflow: auto;
 }
 
 hr {
@@ -192,8 +244,9 @@ hr {
     color: #ffffff;
     text-align: center;
     position: relative;
-    bottom: -125px;
-    padding: 15px 0px 15px 0px;
+    bottom: -170px;
+    padding: 10px 0px 10px 0px;
     width: auto;
+    font-size: large;
 
 }
