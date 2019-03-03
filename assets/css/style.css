@@ -80,7 +80,11 @@ nav {
 }
 
 .me {
-    color: #4aaaa5;  
+    color: #4aaaa5; 
+    border-bottom: 2px solid #cccccc; 
+    padding-bottom: 20px;  
+    margin-bottom: 25px;
+ 
 }
 
 .about {
