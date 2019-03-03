@@ -237,6 +237,11 @@ hr {
     margin-top: 10px;
 }
 
+#submit:hover {
+    color: #ccb444;
+    border: 3px solid #ccb444;    
+}
+
 .banner {
     background-color: #4aaaa5;
     color: #ffffff;
